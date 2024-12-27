@@ -21,7 +21,8 @@ public class taconiteCrushed extends Item {
 
     @Override
     @SideOnly(Side.CLIENT)
-    public void registerIcons(IIconRegister iconRegister) {
+    public void registerIcons(IIconRegister iconRegister)
+    {
         this.itemIcon = iconRegister.registerIcon(FoxBlocks.MODID.toLowerCase() + ":taconiteCrushed");
     }
 
